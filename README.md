@@ -1,58 +1,61 @@
-CS4372 Assignment 4 – Transformers
+# CS4372 Assignment 4 – Transformers
 
-Student: Jude Avery
-Course: CS 4372 – Computational Methods for Data Scientists
-Instructor: Anurag Nagar
+### Student: Jude Avery  
+### Course: CS 4372 – Computational Methods for Data Scientists  
+### Instructor: Anurag Nagar  
 
-Project Overview
+---
 
-This project uses a pretrained Transformer model from the Hugging Face transformers library to perform machine translation (English to Spanish) on text from a public domain book hosted on Project Gutenberg. The goal is to apply a modern encoder–decoder Transformer to real-world text, explore how different hyperparameters affect the output, and evaluate translation quality using BLEU.
+## Project Overview
 
-Task: Machine Translation (EN → ES)
+This project uses a pretrained Transformer model from the HuggingFace `transformers` library to perform **machine translation (English → Spanish)** on text from a public domain book hosted on Project Gutenberg. The goal is to apply a modern encoder–decoder Transformer to real-world text, explore how different hyperparameters affect the output, and evaluate translation quality using BLEU.
 
-Book: Romeo and Juliet by William Shakespeare
+- **Task:** Machine Translation (EN → ES)  
+- **Book:** *Romeo and Juliet* by William Shakespeare  
+- **Data Source:** Project Gutenberg (direct text URL)
 
-Data Source: Project Gutenberg (direct text URL)
+The entire workflow—including dataset loading, preprocessing, translation, and evaluation—was implemented in a single Google Colab notebook.
 
-The entire workflow, including dataset loading, preprocessing, translation, and evaluation—was implemented in a single Google Colab notebook.
+---
 
-Dataset
+## Dataset
 
-The dataset is the public-domain book Romeo and Juliet accessed directly from this URL:
+The dataset is the public-domain book *Romeo and Juliet*, accessed directly from this URL:
 
 https://www.gutenberg.org/files/349/349-0.txt
 
+yaml
+Copy code
 
-The file is downloaded programmatically inside the notebook using requests.get().
+The file is downloaded programmatically inside the notebook using `requests.get()`.  
 This follows the assignment requirement to avoid local file paths and rely only on global URLs.
 
-Model
+---
+
+## Model
 
 This project uses the following pretrained translation model:
 
-Helsinki-NLP/opus-mt-en-es
+### Helsinki-NLP/opus-mt-en-es
 
-This is an encoder–decoder Transformer trained specifically for English→Spanish translation and is fully compatible with the Hugging Face pipeline API.
+This is an encoder–decoder Transformer trained specifically for English → Spanish translation and is fully compatible with the Hugging Face pipeline API.
 
+---
 
-How to Run
-1. Open the Notebook
+## How to Run
 
-Open CS4372Assignment4.ipynb in Google Colab.
+### 1. Open the Notebook
+Open `CS4372Assignment4.ipynb` in Google Colab.
 
-2. Install Dependencies
+### 2. Install Dependencies
+Run:
 
-Run the installation cell or manually install requirements:
-
+```bash
 pip install -r requirements.txt
-
 3. Run the Notebook Cells in Order
-
-
-
 The notebook will:
 
-Download the Romeo and Juliet text from Project Gutenberg
+Download the Romeo and Juliet text
 
 Clean and preprocess the text
 
@@ -66,35 +69,38 @@ Evaluate translations using BLEU (via sacrebleu)
 
 Print quantitative and qualitative results
 
-All results shown in the final report can be reproduced by running the notebook top-to-bottom.
-
-
+Run the notebook top-to-bottom to reproduce results.
 
 Dependencies
-
 The required packages are listed in requirements.txt:
 
+nginx
+Copy code
 transformers
 torch
 datasets
 evaluate
 rouge-score
 sacrebleu
-
-
-
 All packages are available via pip and run smoothly in Google Colab.
 
 Report
+The full written report summarizes:
 
-The full written report summarizing:
 Data sourcing
+
 Transformer architecture
+
 Model selection
+
 Experiment setup
+
 BLEU evaluation
+
 Hyperparameter impact
 
 Translation examples
 
-Discussion & Conclusion
+Discussion & conclusion
+
+The report PDF is located in the Report/ folder of this repository.

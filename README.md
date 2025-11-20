@@ -52,6 +52,8 @@ Run:
 
 ```bash
 pip install -r requirements.txt
+
+```
 3. Run the Notebook Cells in Order
 The notebook will:
 

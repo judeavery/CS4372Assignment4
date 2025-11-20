@@ -6,7 +6,7 @@ Instructor: Anurag Nagar
 
 Project Overview
 
-This project uses a pretrained Transformer model from the Hugging Face transformers library to perform machine translation (English → Spanish) on text from a public domain book hosted on Project Gutenberg. The goal is to apply a modern encoder–decoder Transformer to real-world text, explore how different hyperparameters affect the output, and evaluate translation quality using BLEU.
+This project uses a pretrained Transformer model from the Hugging Face transformers library to perform machine translation (English to Spanish) on text from a public domain book hosted on Project Gutenberg. The goal is to apply a modern encoder–decoder Transformer to real-world text, explore how different hyperparameters affect the output, and evaluate translation quality using BLEU.
 
 Task: Machine Translation (EN → ES)
 

@@ -14,7 +14,7 @@ This project uses a pretrained Transformer model from the HuggingFace `transform
 - **Book:** *Romeo and Juliet* by William Shakespeare  
 - **Data Source:** Project Gutenberg (direct text URL)
 
-The entire workflow including dataset loading, preprocessing, translation, and evaluation was implemented in a single Google Colab notebook.
+The entire workflow, including dataset loading, preprocessing, translation, and evaluation was implemented in a single Google Colab notebook.
 
 ---
 

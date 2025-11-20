@@ -34,16 +34,6 @@ Helsinki-NLP/opus-mt-en-es
 
 This is an encoder–decoder Transformer trained specifically for English→Spanish translation and is fully compatible with the Hugging Face pipeline API.
 
-Repository Structure
-CS4372Assignment4/
-│
-├── CS4372Assignment4.ipynb      # Main Colab notebook with all code and experiments
-├── README.md                    # Project documentation (this file)
-├── requirements.txt             # Python dependencies
-│
-├── report/
-   └── CS4372_Assignment4_Report.pdf   # Final project report (PDF)
-
 
 How to Run
 1. Open the Notebook

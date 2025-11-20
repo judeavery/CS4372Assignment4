@@ -3,8 +3,8 @@
 # CS4372 Assignment 4 – Transformers
 
 **Student:** Jude Avery  
-**Course:** CS 4372 – Introduction to Machine Learning  
-**Instructor:** (fill in)
+**Course:** CS 4372 – Computational Methods for Data Scientists
+**Instructor:** Anurag Nagar
 
 ## Project Overview
 

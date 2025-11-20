@@ -48,6 +48,8 @@ pip install -r requirements.txt
 
 3. Run the Notebook Cells in Order
 
+
+
 The notebook will:
 
 Download the Romeo and Juliet text from Project Gutenberg
@@ -66,6 +68,8 @@ Print quantitative and qualitative results
 
 All results shown in the final report can be reproduced by running the notebook top-to-bottom.
 
+
+
 Dependencies
 
 The required packages are listed in requirements.txt:
@@ -78,22 +82,17 @@ rouge-score
 sacrebleu
 
 
+
 All packages are available via pip and run smoothly in Google Colab.
 
 Report
 
 The full written report summarizing:
-
 Data sourcing
-
 Transformer architecture
-
 Model selection
-
 Experiment setup
-
 BLEU evaluation
-
 Hyperparameter impact
 
 Translation examples

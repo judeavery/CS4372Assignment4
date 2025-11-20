@@ -1,5 +1,3 @@
-# CS4372Assignment4
-
 # CS4372 Assignment 4 – Transformers
 
 **Student:** Jude Avery  

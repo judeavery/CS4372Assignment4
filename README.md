@@ -54,7 +54,7 @@ Run:
 pip install -r requirements.txt
 
 ```
-3. Run the Notebook Cells in Order
+### 3. Run the Notebook Cells in Order
 The notebook will:
 
 Download the Romeo and Juliet text
